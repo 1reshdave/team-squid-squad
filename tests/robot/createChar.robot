@@ -3,7 +3,7 @@ Documentation   I want to create a new character.
 Test Template   Create character.
 Library         CreateLibrary.py
 
-*** Test Cases ***  startingCharacterName   endingCharacterName
+*** Test Cases ***  StartingCharacterName   EndingCharacterName
 New character       DNE                     Daisy
 Rename character    Daisy                   Teddy
 Rename character    Teddy                   O'Malley
