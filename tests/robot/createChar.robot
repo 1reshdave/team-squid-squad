@@ -10,6 +10,6 @@ Rename character    Teddy                   O'Malley
 
 *** Keywords ***
 Create character
-[Arguments]         ${startingCharacterName}     ${endingCharacterName}
-Initialize character name with ${startingCharacterName}
-New character name should be ${endingCharacterName}
+    [Arguments]         ${startingCharacterName}     ${endingCharacterName}
+    Initialize character name with ${startingCharacterName}
+    New character name should be ${endingCharacterName}
