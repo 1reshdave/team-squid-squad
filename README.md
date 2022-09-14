@@ -14,4 +14,4 @@ Runs tests
 * make run
 Runs the program
 
-This is a change to the readme file we're using to test
+all squares are rectangles, but not all rectangles are squares
