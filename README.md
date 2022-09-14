@@ -12,6 +12,10 @@ Runs a build
 Runs tests
 
 * make run
+<<<<<<< HEAD
 Runs the program
 
 
+=======
+Runs the program
+>>>>>>> 2643189b12603786d9eea5fc79ee953e23829b84
