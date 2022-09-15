@@ -10,3 +10,7 @@ class startGameLibrary:
 
     def initialize_character_yposition_with(self, y_position):
         self.start_y = y_position
+
+    def enterMap(self, StartGame):
+        self.controller = GameController()
+        

@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation   I want to start the game.
 Test Template   Start game
-Library         StartGameLibrary.py
+Library         startGameLibrary.py
 
 *** Test Cases ***  StartingX       StartingY   Action       EndingX     EndingY
 Starting the game   DNE             DNE         StartGame    0           0
