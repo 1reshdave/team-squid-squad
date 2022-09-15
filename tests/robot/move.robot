@@ -27,13 +27,9 @@ Move W from UR          9               0               WEST            8       
 
 *** Keywords ***
 Move character
-    [Arguments]        ${startingX}    ${startingY}    ${direction}    ${endingX}   ${endingY}
-    Initialize character xposition with ${startingX}
-    Initialize character yposition with ${startingY}
-    Move in direction ${direction}
-    Character xposition should be ${endingX}
-    Character yposition should be ${endingY}
-
-*** Settings ***
-Documentation
-...     Example Documentation goes here.
+    [Arguments]     ${startingX}    ${startingY}    ${direction}    ${endingX}   ${endingY}
+    Initialize character xposition with     ${startingX}
+    Initialize character yposition with     ${startingY}
+    Move in direction                       ${direction}
+    Character xposition should be           ${endingX}
+    Character yposition should be           ${endingY}
