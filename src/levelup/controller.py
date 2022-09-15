@@ -37,3 +37,7 @@ class GameController:
     def set_character_position(self, xycoordinates: tuple)-> None:
         print("Set character position start for testing")
         # TODO: IMPLEMENT THIS
+
+    def set_current_position(self, xycoordinates: tuple) -> None:
+        print("Set current position")
+        # TODO: IMPLEMENT THIS
