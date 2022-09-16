@@ -3,8 +3,8 @@ Documentation   I want to start the game.
 Test Template   Start game
 Library         startGameLibrary.py
 
-*** Test Cases ***  StartingX     StartingY   Action        EndingX     EndingY
-Starting the game                             startGame     0           0             
+*** Test Cases ***  StartingX       StartingY   Action       EndingX     EndingY
+Starting the game   DNE             DNE         StartGame    0           0
 
 *** Keywords ***
 Start game

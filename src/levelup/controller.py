@@ -17,9 +17,11 @@ class GameStatus:
     running: bool = False
     #  giom was changing it for testing player: Player = Player(DEFAULT_PLAYER_NAME)
     character: Character = Character(DEFAULT_CHARACTER_NAME)
-    current_position: tuple = (-1,-1)
+    current_position: tuple = ARBITRARY_INVALD_INITIALIZED_POSITION
 
-
+def set_character_position(self, xycoordinates: tuple)-> None:
+    print("Set character position start for testing")
+    # TODO: IMPLEMENT THIS
 class GameController:
     status: GameStatus
 

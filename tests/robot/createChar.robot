@@ -1,15 +1,15 @@
-***  Settings ***
+*** Settings ***
 Documentation   I want to create a new character. 
-Test Template   Create character.
-Library         CreateLibrary.py
+Test Template   Create Character
+Library         CreateCharLibrary.py
 
-*** Test Cases ***  StartingCharacterName   EndingCharacterName
-New character       DNE                     Daisy
-Rename character    Daisy                   Teddy
-Rename character    Teddy                   O'Malley
+*** Test Cases ***  StartingCharacterName   Action      EndingCharacterName
+New character       ${EMPTY}                EnterName   Daisy
+Rename character    Teddy                   EnterName   O'Malley
 
 *** Keywords ***
-Create character
+Create Character
     [Arguments]         ${startingCharacterName}     ${endingCharacterName}
     Initialize character name with ${startingCharacterName}
+    Enter name ${action}
     New character name should be ${endingCharacterName}
